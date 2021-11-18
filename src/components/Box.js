@@ -1,10 +1,5 @@
 import React, { useState } from "react"
 import { useSpring, a } from "@react-spring/three"
-import { render } from "react-dom"
-
-window.addEventListener("click", () =>
-  render(<div>HELLLOOOOOO</div>, document.querySelector("canvas"))
-)
 
 const Box = () => {
   const [hovered, setHovered] = useState(false)
